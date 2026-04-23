@@ -61,12 +61,14 @@ Claude will:
 ## 📁 Repo Structure
 
 ```
-constellation-map/
-├── SKILL.md                  # Main skill instructions (Claude reads this)
-├── references/
-│   └── physics.md            # Physics engine constants & implementation
-├── README.md                 # This file
-└── LICENSE                   # MIT License
+constellation-map-skill/
+├── skills/
+│   └── constellation-map/
+│       ├── SKILL.md                  # Main skill instructions (Claude reads this)
+│       └── references/
+│           └── physics.md            # Physics engine constants & implementation
+├── README.md                         # This file
+└── LICENSE                           # MIT License
 ```
 
 ---
